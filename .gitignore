@@ -1,0 +1,31 @@
+# =========================
+# General
+# =========================
+.DS_Store
+*.log
+*.tmp
+
+# =========================
+# IDEs
+# =========================
+.idea/
+*.iml
+.vscode/
+
+# =========================
+# Java & Maven (Backend)
+# =========================
+/community-backend/target/
+/community-backend/pom.xml.bak
+
+# =========================
+# Node.js & Vite (Frontend)
+# =========================
+/community-frontend/node_modules/
+/community-frontend/dist/
+/community-frontend/.env*
+!/community-frontend/.env.example
+/community-frontend/npm-debug.log*
+/community-frontend/yarn-debug.log*
+/community-frontend/yarn-error.log*
+/community-frontend/pnpm-debug.log*

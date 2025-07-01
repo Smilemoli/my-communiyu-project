@@ -1,0 +1,31 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /api
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/community?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true
+    username: root # 记得替换成你自己的
+    password: password # 记得替换成你自己的
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+# --- 请重点检查下面这个 app 块的格式和缩进 ---
+# 'app:' 必须是顶格的，不能有任何前置空格。
+# 'jwt:' 必须在 'app:' 下方，并且有2个空格的缩进。
+# 'secret:' 和 'expiration-ms:' 必须在 'jwt:' 下方，并且有4个空格的缩进。
+app:
+  jwt:
+    # 使用下面这个更长、更安全的、经过Base64编码的密钥，替换你原来的密钥
+    secret: MTYxNTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTIzNDU2Nzg5MDEyMzQ1Njc4OTAxMjM0NTY3ODkwMTI=
+    expiration-ms: 604800000
+
+logging:
+  level:
+    # 将 Spring Security 的日志级别设置为 DEBUG
+    org.springframework.security: DEBUG
