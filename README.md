@@ -31,4 +31,6 @@
 
 ## 📸 项目截图
 
-<img width="1539" alt="截屏2025-07-01 12 56 17" src="https://github.com/user-attachments/assets/101e7b5c-a525-4fba-bef0-1da9ebb84063" />
+
+<img width="1143" alt="截屏2025-07-01 12 57 17" src="https://github.com/user-attachments/assets/954f8f2d-a431-4b85-ab1b-17f240a34cfd" />
+<img width="1143" alt="截屏2025-07-01 12 57 28" src="https://github.com/user-attachments/assets/1dc8917e-6b9e-412d-8ee3-cb778ff6a7a7" />
