@@ -21,7 +21,6 @@
 1.  克隆项目到本地: `git clone https://github.com/your-username/your-repository-name.git`
 2.  **后端配置**:
     -   进入 `community-backend` 目录。
-    -   在 `src/main/resources/` 下，复制 `application.yml.example` 并重命名为 `application.yml`。
     -   修改 `application.yml` 文件，填入你自己的MySQL数据库用户名和密码。
     -   使用 IntelliJ IDEA 打开后端项目并运行。
 3.  **前端配置**:
